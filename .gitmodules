@@ -1,0 +1,3 @@
+[submodule "submodules/my-submodule"]
+	path = submodules/my-submodule
+	url = https://github.com/AviShtarkberg/render_first_attempt.git
