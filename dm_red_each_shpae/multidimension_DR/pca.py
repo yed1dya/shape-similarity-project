@@ -8,10 +8,10 @@ import base64
 import io
 
 # Parameters
-SHAPES_FOLDER = r"C:\Users\user\Documents\Sample Shapes\shapes"  # Parent folder containing shape folders
+SHAPES_FOLDER = # Parent folder containing shape folders
 OUTPUT_DIM = 100  # Number of PCA components (adjust as needed)
 CURRENT_DATETIME = datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
-OUTPUT_FOLDER = r"C:\Users\user\Documents\Sample Shapes\each shape\multidimension\PCA"  # Directory to save output
+OUTPUT_FOLDER = # Directory to save output
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # List of shapes to process

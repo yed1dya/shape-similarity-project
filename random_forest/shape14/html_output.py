@@ -4,7 +4,7 @@ import csv
 
 SHAPE = 14
 # Input and Output Paths
-IMAGES_DIR = rf"shape_14_kernel_1_1_low_thresh_50_up_thresh_250_20250718_144457"
+IMAGES_DIR = "images/shape14"
 OUTPUT_HTML = rf"shape{SHAPE}_labels.html"
 PREDICTIONS_FILE = rf"shape14_tsne_ranking.csv"
 

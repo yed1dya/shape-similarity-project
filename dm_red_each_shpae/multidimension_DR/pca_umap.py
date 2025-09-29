@@ -10,11 +10,11 @@ from PIL import Image
 from sklearn.decomposition import PCA
 
 # Parameters
-SHAPES_FOLDER = r"C:\Users\user\Documents\Sample Shapes\shapes"  # Parent folder containing shape folders
+SHAPES_FOLDER = # Parent folder containing shape folders
 PCA_OUTPUT_DIM = 50  # Intermediate PCA dimensions
 UMAP_OUTPUT_DIM = 10  # Final UMAP dimensions (adjust as needed)
 CURRENT_DATETIME = datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
-OUTPUT_FOLDER = r"C:\Users\user\Documents\Sample Shapes\each shape\multidimension\PCA_UMAP"  # Output directory
+OUTPUT_FOLDER = # Output directory
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # List of shapes to process

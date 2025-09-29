@@ -10,10 +10,7 @@ from datetime import datetime
 
 # --- CONFIG ---
 SHAPE = 18
-IMG_DIR = (
-    r"C:\Users\user\OneDrive - Ariel University\Desktop\PycharmProjects\shape_similarity\mnist_images\shape_18_"
-    r"kernel_1_1_low_thresh_50_up_thresh_250_20250724_115318"
-)
+IMG_DIR = "images/shape18"
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 CSV_OUT = f"shape{SHAPE}_contours_{timestamp}.csv"
 ANNOTATED_DIR = f"annotated_shape{SHAPE}_{timestamp}"

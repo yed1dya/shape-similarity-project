@@ -3,7 +3,7 @@ import os
 import csv
 
 # Input and Output Paths
-IMAGES_DIR = r"C:\Users\user\Documents\Sample Shapes\shapes\shape9"
+IMAGES_DIR = "images/shape9"
 OUTPUT_HTML = r"shape9_labels.html"
 PREDICTIONS_FILE = r"shape9_scores.csv"
 

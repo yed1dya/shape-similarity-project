@@ -12,14 +12,14 @@ from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 
 # Parameters
-SHAPES_FOLDER = r"C:\Users\user\Documents\Sample Shapes\shapes"  # Input parent folder
+SHAPES_FOLDER = # Input parent folder
 AUTOENCODER_OUTPUT_DIM = 50  # Final autoencoder dimensions (increased further)
 EPOCHS = 20
 BATCH_SIZE = 32
 VALIDATION_SPLIT = 0.1
 LEARNING_RATE = 0.0005
 CURRENT_DATETIME = datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
-OUTPUT_FOLDER = r"C:\Users\user\Documents\Sample Shapes\each shape\multidimension\Autoencoder_Only"  # Output directory
+OUTPUT_FOLDER = # Output directory
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # List of shapes to process

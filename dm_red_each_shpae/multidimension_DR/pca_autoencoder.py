@@ -9,10 +9,10 @@ from PIL import Image
 from tensorflow.keras import layers, models
 
 # Parameters
-SHAPES_FOLDER = r"C:\Users\user\Documents\Sample Shapes\shapes"  # Input parent folder
+SHAPES_FOLDER = # Input parent folder
 AUTOENCODER_OUTPUT_DIM = 10  # Final autoencoder dimensions
 CURRENT_DATETIME = datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
-OUTPUT_FOLDER = r"C:\Users\user\Documents\Sample Shapes\each shape\multidimension\Autoencoder_Only"  # Output directory
+OUTPUT_FOLDER = # Output directory
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # List of shapes to process
